@@ -1,0 +1,31 @@
+.ui-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-family: inherit;
+  font-size: inherit;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 100%;
+}
+
+.ui-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(142, 125, 190, 0.3);
+}
+
+.ui-input.error {
+  border-color: #ff3b30;
+}
+
+.ui-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.ui-input-error {
+  color: #ff3b30;
+  font-size: 0.75rem;
+  margin-top: 4px;
+}

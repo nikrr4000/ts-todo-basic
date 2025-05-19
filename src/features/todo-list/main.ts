@@ -1,4 +1,4 @@
-import { task, taskForm, taskList } from "../../components";
+import { task, taskForm, taskList } from "../../storage/components";
 
 function initializeForm() {
   taskForm.addEventListenerOnForm("submit", (e, _, input) => {

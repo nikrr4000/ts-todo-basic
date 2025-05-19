@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--basic);
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+.wrapper {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.todo-wrapper {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-wrapper h1 {
+  text-align: center;
+  max-width: 300px;
+}
+
+.todo-list {
+  padding: 0;
+  max-width: 100%;
+}
